@@ -1,4 +1,4 @@
-# Vuetify2
+# MedBlog
 
 ## Build Setup
 
