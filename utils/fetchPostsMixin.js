@@ -1,9 +1,11 @@
 export default {
   async asyncData({ $content, app, error, params}) {
     const defaultLocale = app.i18n.locale;
-    const blogs = await $content(`${defaultLocale}/blog`)
+    const blogs = await $content(`${defaultLocale}/blog`, { deep: true }) 
+
+
       .sortBy('createdAt', 'asc')
-      .limit(6)
+ 
       .fetch()
       .catch(() => {
         error({ statusCode: 404, message: 'Page not found' })

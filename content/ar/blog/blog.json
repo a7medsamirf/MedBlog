@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "title": "Silky Smooth Beats",
+      "image": "1.jpg",
+      "alt":" سماعات الصوت",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, possimus temporibus reprehenderit molestiae, doloribus eos obcaecati expedita, voluptatibus commodi  suscipit aliquid fuga modi alias fugiat nostrum. Accusantium incidunt quae modi"
+    },
+    {
+        "id": 2,
+       "title": "My Blog Post",
+       "description": "This is a sample blog post",
+       "date": "2023-06-01",
+       "author": "John Doe",
+       "tags": ["Nuxt", "Content", "Example"],
+       "coverImage": "/images/cover.jpg",
+       "content": "This is the content of my blog post..."
+     }
+
+  ]
+  
